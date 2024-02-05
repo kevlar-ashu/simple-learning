@@ -28,6 +28,7 @@ func main() {
 
 	render.NewTemplates(&app)
 
+	// url and it's handler
 	http.HandleFunc("/", handlers.Repo.Home)
 	http.HandleFunc("/about", handlers.Repo.About)
 
