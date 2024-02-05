@@ -57,6 +57,7 @@ func RenderTemplate(w http.ResponseWriter, tmpl string) {
 	// }
 }
 
+// CreateTemplateCache function will create template cache
 func CreateTemplateCache() (map[string]*template.Template, error) {
 	// myCache := make(map[string]*template.Template)
 	myCache := map[string]*template.Template{}
