@@ -7,7 +7,7 @@ import (
 	"github.com/kevlar-ashu/simple-learning/pkg/render"
 )
 
-// Repo the repository used by the handlers
+
 var Repo *Repository
 
 // Repository is the repository type
